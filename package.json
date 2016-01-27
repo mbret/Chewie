@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/mbret/my-buddy-project-base#readme",
   "dependencies": {
-    "my-buddy": "git://github.com/mbret/my-buddy-system.git#master",
+    "my-buddy-system": "git://github.com/mbret/my-buddy-system.git#master"
   }
 }
