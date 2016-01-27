@@ -1,3 +1,3 @@
 'use strict';
 
-var MyBuddySystem = require('my-buddy-system');
+var MyBuddySystem = require('my-buddy');
