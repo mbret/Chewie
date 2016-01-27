@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mbret/my-buddy-project-base/issues"
   },
-  "homepage": "https://github.com/mbret/my-buddy-project-base#readme"
+  "homepage": "https://github.com/mbret/my-buddy-project-base#readme",
+  "dependencies": {
+    "my-buddy-system": "git://github.com/mbret/my-buddy-system.git#master"
+  }
 }
