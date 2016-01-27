@@ -1,0 +1,19 @@
+{
+  "name": "my-buddy-project-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mbret@github.com/mbret/my-buddy-project-base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbret/my-buddy-project-base/issues"
+  },
+  "homepage": "https://github.com/mbret/my-buddy-project-base#readme"
+}
