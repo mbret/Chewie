@@ -1,0 +1,1 @@
+You can add to this folder your own custom hooks.
