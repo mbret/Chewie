@@ -8,5 +8,8 @@
     "lodash": "^4.16.4",
     "my-buddy-system": "git://github.com/mbret/my-buddy-system.git#master",
     "require-all": "^2.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
   }
 }
