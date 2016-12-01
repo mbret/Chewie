@@ -14,16 +14,18 @@ Well, at first it was a personal project started few time before all these home 
 - [node.js](https://nodejs.org)
 - [npm](https://www.npmjs.com)
 
+Installation of assistant itself is globally the same on Windows/Linux.
+
 ### Windows
 
 1. `git clone https://github.com/my-buddy/my-buddy-app-base.git chewie`.
-2. Move to newly created 'chewie' folder and run `npm install`. You now have the assistant installed and ready.
+2. Move to newly created `chewie` folder and run `npm install`. You now have the assistant installed and ready.
 3. To run chewie move inside chewie folder and run `npm run start`
 
 ### Linux
 
 1. `git clone https://github.com/my-buddy/my-buddy-app-base.git chewie`.
-2. Move to newly created 'chewie' folder and run `npm install`. You now have the assistant installed and ready.
+2. Move to newly created `chewie` folder and run `npm install`. You now have the assistant installed and ready.
 3. To run chewie move inside `chewie` folder and run `npm run start`
 
 ## Getting started
