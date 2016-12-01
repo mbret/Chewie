@@ -1,7 +1,7 @@
 "use strict";
 
 const requireAll = require('require-all');
-const MyBuddy = require("my-buddy-system");
+const chewie = require("chewie-system");
 const path = require("path");
 const _ = require("lodash");
 
@@ -22,4 +22,4 @@ requireAll({
 // Start the system
 // You don't need anything else after this point.
 // The system handle itself completely.
-MyBuddy.start(config);
+chewie.start(config);

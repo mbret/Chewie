@@ -1,12 +1,12 @@
 {
-  "name": "my-buddy-app-base",
+  "name": "chewie-app",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "author": "Maxime Bret",
   "dependencies": {
     "lodash": "^4.16.4",
-    "my-buddy-system": "git://github.com/my-buddy/system.git#master",
+    "chewie-system": "git://github.com/mbret/chewie-system.git#master",
     "require-all": "^2.0.0"
   },
   "scripts": {
