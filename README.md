@@ -16,13 +16,13 @@ Well, at first it was a personal project started few time before all these home 
 
 Installation of assistant itself is globally the same on Windows/Linux.
 
-### Windows
+### Installation on Windows
 
 1. `git clone https://github.com/my-buddy/my-buddy-app-base.git chewie`.
 2. Move to newly created `chewie` folder and run `npm install`. You now have the assistant installed and ready.
 3. To run chewie move inside chewie folder and run `npm run start`
 
-### Linux
+### Installation on Linux
 
 1. `git clone https://github.com/my-buddy/my-buddy-app-base.git chewie`.
 2. Move to newly created `chewie` folder and run `npm install`. You now have the assistant installed and ready.
@@ -42,11 +42,15 @@ Coming soon.
 
 ## I want to create a plugin
 
-Coming soon.
+Read th contributing [guide](https://github.com/mbret/chewie/blob/master/CONTRIBUTING.md)
+
+## Bruh I found a bug!
+
+Read th contributing [guide](https://github.com/mbret/chewie/blob/master/CONTRIBUTING.md)
 
 ## I want to contribute to the core project
 
-Coming soon.
+Read th contributing [guide](https://github.com/mbret/chewie/blob/master/CONTRIBUTING.md)
 
 ## Work in progess
 
