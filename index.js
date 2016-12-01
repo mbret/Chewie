@@ -1,16 +1,16 @@
 "use strict";
 
-var requireAll = require('require-all');
-var MyBuddy = require("my-buddy-system");
-var path = require("path");
-var _ = require("lodash");
+const requireAll = require('require-all');
+const MyBuddy = require("my-buddy-system");
+const path = require("path");
+const _ = require("lodash");
 
 // Ensure we're in the project directory, so cwd-relative paths work as expected
 // no matter where we actually start from.
 process.chdir(__dirname);
 
 // Load custom config
-var config = {};
+let config = {};
 requireAll({
     dirname     : path.join(__dirname, "config"),
     recursive   : true,
