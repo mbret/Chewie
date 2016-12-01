@@ -1,4 +1,4 @@
-# chewie
+# Chewie
 
 Chewie is a home assistant.
 The main goal of Chewie is to be completly open and act as a simple base for plugins. The system offer a backend that handle the plugin runtime and allow them to communicate and a web application to have control on it.
