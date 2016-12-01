@@ -42,15 +42,15 @@ Coming soon.
 
 ## I want to create a plugin
 
-Read th contributing [guide](https://github.com/mbret/chewie/blob/master/CONTRIBUTING.md)
+Read the contributing [guide](https://github.com/mbret/chewie/blob/master/CONTRIBUTING.md)
 
 ## Bruh I found a bug!
 
-Read th contributing [guide](https://github.com/mbret/chewie/blob/master/CONTRIBUTING.md)
+Read the contributing [guide](https://github.com/mbret/chewie/blob/master/CONTRIBUTING.md)
 
 ## I want to contribute to the core project
 
-Read th contributing [guide](https://github.com/mbret/chewie/blob/master/CONTRIBUTING.md)
+Read the contributing [guide](https://github.com/mbret/chewie/blob/master/CONTRIBUTING.md)
 
 ## Work in progess
 
