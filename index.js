@@ -12,9 +12,9 @@ process.chdir(__dirname);
 // Load custom config
 let config = {};
 requireAll({
-    dirname     : path.join(__dirname, "config"),
-    recursive   : true,
-    resolve     : function(conf){
+    dirname: path.join(__dirname, "config"),
+    recursive: true,
+    resolve: function(conf){
         config = _.merge(config, conf);
     }
 });
