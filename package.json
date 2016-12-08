@@ -6,7 +6,7 @@
   "author": "Maxime Bret",
   "dependencies": {
     "lodash": "^4.16.4",
-    "chewie-system": "git://github.com/mbret/chewie-system.git#master",
+    "chewie-system": "https://github.com/mbret/chewie-system",
     "require-all": "^2.0.0"
   },
   "scripts": {
