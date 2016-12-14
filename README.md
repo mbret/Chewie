@@ -40,7 +40,8 @@ You should have access to [https://localhost:3000](https://localhost:3000) to ge
 
 Coming soon.
 - I have updated node.js and I get some errors when starting the app. (ex `Please install sqlite3 package manually`)
-Try to run `npm rebuild`.
+
+Try to run `npm rebuild` to see if it helps.
 
 ## I want to create a plugin
 
