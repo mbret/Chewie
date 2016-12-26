@@ -1,1 +1,0 @@
-This folder is read by the index.js and load your own custom config.
