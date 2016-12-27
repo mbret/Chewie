@@ -13,6 +13,7 @@ Well, at first it was a personal project started few time before all these home 
 - [Git](https://git-scm.com)
 - [node.js](https://nodejs.org)
 - [npm](https://www.npmjs.com)
+- [mplayer2](https://doc.ubuntu-fr.org/mplayer2)
 
 Installation of assistant itself is globally the same on Windows/Linux.
 
