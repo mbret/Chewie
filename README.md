@@ -5,7 +5,7 @@ The main goal of Chewie is to be completly open and act as a simple base for plu
 
 ## Why another home assistant?
 
-Well, at first it was a personal project started few time before all these home assistant where released. At that time I wanted to learn node.js and play with my raspberry. Then I rapidly took alot of fun developing it and decided to make a complete plateform based on plugins. My philosophy is to develop a solid base system which may be extended thanks to plugins and leave for a long time.
+Well, at first it was a personal project started few time before all these home assistant where released. At that time I wanted to learn node.js and play with my raspberry. Then I rapidly took alot of fun developing it and decided to make a complete plateform based on plugins. My philosophy is to develop a solid base system which may be extended thanks to plugins and live for a long time.
 
 ## Installing
 
