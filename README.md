@@ -1,7 +1,7 @@
 # Chewie
 
 Chewie is a home assistant.
-The main goal of Chewie is to be completly open and act as a simple base for plugins. The system offer a backend that handle the plugin runtime and allow them to communicate and a web application to have control on it.
+It allows you to control your home without any limit. To achieve that Chewie is entirely based on plugins that can extend its base and functionalities. The main goal of Chewie is to be completely open and act as a very simple base for plugins while being evolutive to last in time.
 
 ## Why another home assistant?
 
@@ -19,13 +19,13 @@ Installation of assistant itself is globally the same on Windows/Linux.
 
 ### Installation on Windows
 
-1. `git clone https://github.com/chewie/chewie.git chewie`.
+1. `git clone https://github.com/mbret/chewie-app.git chewie`.
 2. Move to newly created `chewie` folder and run `npm install`. You now have the assistant installed and ready.
 3. To run chewie move inside chewie folder and run `npm run start`
 
 ### Installation on Linux
 
-1. `git clone https://github.com/chewie/chewie-app.git chewie`.
+1. `git clone https://github.com/mbret/chewie-app.git chewie`.
 2. Move to newly created `chewie` folder and run `npm install`. You now have the assistant installed and ready.
 3. To run chewie move inside `chewie` folder and run `npm run start`
 
