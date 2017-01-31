@@ -1,11 +1,14 @@
+![Image of Chewbacca](http://i.imgur.com/BLbkyGd.jpg)
+Image from http://i.imgur.com/BLbkyGd.jpg not related to this project
+
 # Chewie
 
 Chewie is a home assistant.
-It allows you to control your home without any limit. To achieve that Chewie is entirely based on plugins that can extend its base and functionalities. The main goal of Chewie is to be completely open and act as a very simple base for plugins while being evolutive to last in time.
+It allows you to control your home without any limit. The system is entirely based on plugins that extend its base and functionalities. The main goal of Chewie is to be completely open and act as a very simple base for plugins from community while being evolutive to last in time. The project is free of use and open source. Please your are welcome to contribute :)
 
 ## Why another home assistant?
 
-Well, at first it was a personal project started few time before all these home assistant where released. At that time I wanted to learn node.js and play with my raspberry. Then I rapidly took alot of fun developing it and decided to make a complete plateform based on plugins. My philosophy is to develop a solid base system which may be extended thanks to plugins and live for a long time.
+Well, at first it was a personal project started before all these home assistant where released and popular. At that time I wanted to learn node.js and play with my raspberry. Then I rapidly took alot of fun developing it and decided to make a complete plateform based on plugins. My philosophy is to develop a solid base system which may be extended thanks to plugins and live for a long time. Chewie is very open minded.
 
 ## Installing
 
