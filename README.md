@@ -15,7 +15,7 @@ Well, at first it was a personal project started before all these home assistant
 ### Prerequisites
 - [Git](https://git-scm.com)
 - [node.js](https://nodejs.org)
-- [npm](https://www.npmjs.com)
+- [npm](https://www.npmjs.com) or [yarn](https://yarnpkg.com/)
 - [mplayer2](https://doc.ubuntu-fr.org/mplayer2)
 
 Installation of assistant itself is globally the same on Windows/Linux.
@@ -31,6 +31,10 @@ Installation of assistant itself is globally the same on Windows/Linux.
 1. `git clone https://github.com/mbret/chewie-app.git chewie`.
 2. Move to newly created `chewie` folder and run `npm install`. You now have the assistant installed and ready.
 3. To run chewie move inside `chewie` folder and run `npm run start`
+
+### Quick overview
+- [https://github.com/mbret/chewie-app][chewie-app] is the application you need to install.
+- [https://github.com/mbret/chewie-system][chewie-system] is the system library than run the project. [chewie-app][chewie-app] install [chewie-system][chewie-system] as a dependencie and handle its installation for you.
 
 ## Getting started
 
@@ -62,3 +66,6 @@ Read the contributing [guide](https://github.com/mbret/chewie/blob/master/CONTRI
 ## Work in progess
 
 - complete cli to manage chewie
+
+[chewie-app]: https://github.com/mbret/chewie-app
+[chewie-system]: https://github.com/mbret/chewie-system
