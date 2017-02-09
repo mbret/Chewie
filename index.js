@@ -5,9 +5,8 @@
 process.chdir(__dirname);
 
 const chewie = require("chewie-system");
-const path = require("path");
 
 // Start the system
 chewie.start({
-    settings: path.join(__dirname, "config/settings.json")
+    settings: require(__dirname + "/config/settings.json"))
 });
