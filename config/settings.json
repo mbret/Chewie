@@ -1,3 +1,5 @@
 {
-
+  "hooks": {
+    "chewie-hook-thirdparty-auth-provider": true
+  }
 }

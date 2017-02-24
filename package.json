@@ -6,10 +6,15 @@
   "author": "Maxime Bret",
   "license": "MIT",
   "dependencies": {
+    "chewie-hook-thirdparty-auth-provider": "git+https://github.com/mbret/chewie-hook-thirdparty-auth-provider.git",
     "chewie-system": "https://github.com/mbret/chewie-system"
   },
   "scripts": {
     "start": "node index.js",
+    "start:debug": "cross-env DEBUG=chewie* node index.js",
     "app-update": "git pull origin master"
+  },
+  "devDependencies": {
+    "cross-env": "^3.1.4"
   }
 }
