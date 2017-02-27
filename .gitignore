@@ -1,6 +1,6 @@
-# Created by .ignore support plugin (hsz.mobi)
 .idea
 node_modules
 *.iml
 .tmp
 npm-debug.log*
+.system

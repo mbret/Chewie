@@ -8,5 +8,5 @@ const chewie = require("chewie-system");
 
 // Start the system
 chewie.start({
-    settings: require("./config/settings.json")
+    settings: require("./settings.json")
 });
