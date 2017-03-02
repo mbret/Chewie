@@ -1,6 +1,6 @@
 # Chewie application
 
-![Image of Chewbacca](http://imgur.com/a/CWpBx)
-Image from http://imgur.com/a/CWpBx not related to this project
+![Image of Chewbacca](https://image.ibb.co/b8AE8v/chewie.jpg)
+Image not related to the project
 
 For more information go to [chewie](https://github.com/mbret/chewie) home page.
