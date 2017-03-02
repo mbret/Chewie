@@ -1,5 +1,4 @@
-![Image of Chewbacca](http://i.imgur.com/BLbkyGd.jpg)
-Image from http://i.imgur.com/BLbkyGd.jpg not related to this project
+![Image of Chewbacca](https://image.ibb.co/eKvgov/chewie.jpg)
 
 # Chewie
 
