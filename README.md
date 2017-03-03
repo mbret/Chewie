@@ -29,7 +29,7 @@ Installation of assistant itself is globally the same on Windows/Linux.
 
 1. `git clone https://github.com/mbret/chewie-app.git chewie`.
 2. Move to newly created `chewie` folder and run `npm install`. You now have the assistant installed and ready.
-3. To run chewie move inside `chewie` folder and run `npm run start`
+3. To run chewie move inside `chewie` folder and run `npm run start` or `npm run start:debug` if you want more debug information.
 
 ### Quick overview
 - [https://github.com/mbret/chewie-app][chewie-app] is the application you need to install.
