@@ -1,6 +1,12 @@
 ![Image of Chewbacca](https://image.ibb.co/eKvgov/chewie.jpg)
 
 # Chewie
+[![version](https://img.shields.io/npm/v/chewie-system.svg)](https://www.npmjs.org/package/chewie-system)
+[![status](https://travis-ci.org/mbret/chewie-system.svg)](https://travis-ci.org/mbret/chewie-system)
+[![coverage](https://img.shields.io/coveralls/mbret/chewie-system.svg)](https://coveralls.io/github/mbret/chewie-system)
+[![dependencies](https://david-dm.org/mbret/chewie-system.svg)](https://david-dm.org/mbret/chewie-system)
+[![devDependencies](https://david-dm.org/mbret/chewie-system/dev-status.svg)](https://david-dm.org/mbret/chewie-system#info=devDependencies)
+![node](https://img.shields.io/node/v/chewie-system.svg)
 
 Chewie is a home assistant.
 It allows you to control your home without any limit. The system is entirely based on plugins that extend its base and functionalities. The main goal of Chewie is to be completely open and act as a very simple base for plugins from community while being evolutive to last in time. The project is free of use and open source. Please your are welcome to contribute :)
