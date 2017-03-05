@@ -37,6 +37,8 @@ Installation of assistant itself is globally the same on Windows/Linux.
 2. Move to newly created `chewie` folder and run `npm install`. You now have the assistant installed and ready.
 3. To run chewie move inside `chewie` folder and run `npm run start` or `npm run start:debug` if you want more debug information.
 
+**[yarn](https://yarnpkg.com/) may works way better on low CPU devices as they are many dependencies*
+
 ### Quick overview
 - [https://github.com/mbret/chewie-app][chewie-app] is the application you need to install.
 - [https://github.com/mbret/chewie-system][chewie-system] is the system library than run the project. [chewie-app][chewie-app] install [chewie-system][chewie-system] as a dependencie and handle its installation for you.
