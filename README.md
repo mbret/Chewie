@@ -21,7 +21,7 @@ Well, at first it was a personal project started before all these home assistant
 - [Git](https://git-scm.com)
 - [node.js](https://nodejs.org)
 - [npm](https://www.npmjs.com) or [yarn](https://yarnpkg.com/)
-- [mplayer2](https://doc.ubuntu-fr.org/mplayer2)
+- [mplayer2](https://doc.ubuntu-fr.org/mplayer2) (this is the default adapter for sounds output)
 
 Installation of assistant itself is globally the same on Windows/Linux.
 
@@ -37,7 +37,7 @@ Installation of assistant itself is globally the same on Windows/Linux.
 2. Move to newly created `chewie` folder and run `npm install`. You now have the assistant installed and ready.
 3. To run chewie move inside `chewie` folder and run `npm run start` or `npm run start:debug` if you want more debug information.
 
-**[yarn](https://yarnpkg.com/) may works way better on low CPU devices as they are many dependencies*
+**[yarn](https://yarnpkg.com/) may works way better on low CPU devices as they are many dependencies. Unlike npm yarn proceed some parallel tasks*
 
 ### Quick overview
 - [https://github.com/mbret/chewie-app][chewie-app] is the application you need to install.
@@ -57,6 +57,9 @@ Coming soon.
 - I have updated node.js and I get some errors when starting the app. (ex `Please install sqlite3 package manually`)
 
 Try to run `npm rebuild` to see if it helps.
+
+## Troubleshooting
+
 
 ## I want to create a plugin
 
