@@ -45,11 +45,16 @@ Installation of assistant itself is globally the same on Windows/Linux.
 
 ## Getting started
 
-To start chewie move to the assistant folder. By default it's `chewie` and run
+To start chewie move to the assistant folder. By default it's `chewie` and run:
 ```
 npm run start
 ```
 You should have access to [https://localhost:3000](https://localhost:3000) to get the web app.
+
+If you may want to have more information and debug you can use:
+```
+npm run start:debug
+```
 
 ## FAQ
 
@@ -58,8 +63,9 @@ Coming soon.
 
 Try to run `npm rebuild` to see if it helps.
 
-## Troubleshooting
-
+## Troubleshootings
+- The startup crash and I get an error who looks like `No such driver found, please try to install it via npm install db-migrate-sqlite3...` This error appears sometimes on raspberry for example:
+You probably have invalid or badly installed sqlite3 dependency. Try to do `npm install sqlite3 --build-from-source` again to see if it helps.
 
 ## I want to create a plugin
 
