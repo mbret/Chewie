@@ -1,12 +1,12 @@
 ![Image of Chewbacca](https://image.ibb.co/eKvgov/chewie.jpg)
 
 # Chewie application
-[![version](https://img.shields.io/npm/v/chewie-app.svg)](https://www.npmjs.org/package/chewie-app)
-[![status](https://travis-ci.org/mbret/chewie-app.svg)](https://travis-ci.org/mbret/chewie-app)
-[![coverage](https://img.shields.io/coveralls/mbret/chewie-app.svg)](https://coveralls.io/github/mbret/chewie-app)
-[![dependencies](https://david-dm.org/mbret/chewie-app.svg)](https://david-dm.org/mbret/chewie-app)
-[![devDependencies](https://david-dm.org/mbret/chewie-app/dev-status.svg)](https://david-dm.org/mbret/chewie-app#info=devDependencies)
-![node](https://img.shields.io/node/v/chewie-app.svg)
+[![version](https://img.shields.io/npm/v/chewie.svg)](https://www.npmjs.org/package/chewie)
+[![status](https://travis-ci.org/mbret/chewie.svg)](https://travis-ci.org/mbret/chewie)
+[![coverage](https://img.shields.io/coveralls/mbret/chewie.svg)](https://coveralls.io/github/mbret/chewie)
+[![dependencies](https://david-dm.org/mbret/chewie.svg)](https://david-dm.org/mbret/chewie)
+[![devDependencies](https://david-dm.org/mbret/chewie/dev-status.svg)](https://david-dm.org/mbret/chewie#info=devDependencies)
+![node](https://img.shields.io/node/v/chewie.svg)
 
 Chewie is a home assistant.
 It allows you to control your home without any limit. The system is entirely based on plugins that extend its base and functionalities. The main goal of Chewie is to be completely open and act as a very simple base for plugins from community while being evolutive to last in time. The project is free of use and open source. Please your are welcome to contribute :)
@@ -27,21 +27,21 @@ Installation of assistant itself is globally the same on Windows/Linux.
 
 ### Installation on Windows
 
-1. `git clone https://github.com/mbret/chewie-app.git chewie`.
+1. `git clone https://github.com/mbret/chewie.git chewie`.
 2. Move to newly created `chewie` folder and run `npm install`. You now have the assistant installed and ready.
 3. To run chewie move inside chewie folder and run `npm run start`
 
 ### Installation on Linux
 
-1. `git clone https://github.com/mbret/chewie-app.git chewie`.
+1. `git clone https://github.com/mbret/chewie.git chewie`.
 2. Move to newly created `chewie` folder and run `npm install`. You now have the assistant installed and ready.
 3. To run chewie move inside `chewie` folder and run `npm run start` or `npm run start:debug` if you want more debug information.
 
 **[yarn](https://yarnpkg.com/) may works way better on low CPU devices as they are many dependencies. Unlike npm yarn proceed some parallel tasks*
 
 ### Quick overview
-- [https://github.com/mbret/chewie-app][chewie-app] is the application you need to install.
-- [https://github.com/mbret/chewie-system][chewie-system] is the system library than run the project. [chewie-app][chewie-app] install [chewie-system][chewie-system] as a dependencie and handle its installation for you.
+- [https://github.com/mbret/chewie][chewie] is the application you need to install.
+- [https://github.com/mbret/chewie-system][chewie-system] is the system library than run the project. [chewie][chewie] install [chewie-system][chewie-system] as a dependencie and handle its installation for you.
 
 ## Getting started
 
@@ -83,5 +83,5 @@ Read the contributing [guide](https://github.com/mbret/chewie/blob/master/CONTRI
 
 - complete cli to manage chewie
 
-[chewie-app]: https://github.com/mbret/chewie-app
+[chewie]: https://github.com/mbret/chewie
 [chewie-system]: https://github.com/mbret/chewie-system
