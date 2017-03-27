@@ -26,14 +26,14 @@ Well, at first it was a personal project started before all these home assistant
 Installation of assistant itself is globally the same on Windows/Linux.
 
 ### Installation on Windows
-
-1. `git clone https://github.com/mbret/chewie.git chewie`.
+s
+1. `git clone https://github.com/mbret/chewie.git`.
 2. Move to newly created `chewie` folder and run `npm install`. You now have the assistant installed and ready.
 3. To run chewie move inside chewie folder and run `npm run start`
 
 ### Installation on Linux
 
-1. `git clone https://github.com/mbret/chewie.git chewie`.
+1. `git clone https://github.com/mbret/chewie.git`.
 2. Move to newly created `chewie` folder and run `npm install`. You now have the assistant installed and ready.
 3. To run chewie move inside `chewie` folder and run `npm run start` or `npm run start:debug` if you want more debug information.
 
@@ -55,6 +55,27 @@ If you may want to have more information and debug you can use:
 ```
 npm run start:debug
 ```
+
+## What next?
+You may want to check out these common and popular packages:
+- [https://github.com/mbret/chewie-hook-thirdparty-auth-provider][chewie-hook-thirdparty-auth-provider] Handle easily your social authentications.
+- [https://github.com/mbret/chewie-plugin-date-time][chewie-plugin-date-time] Execute task on certain time/date/interval/etc.
+
+## How to install hooks and plugins
+### Install an hook
+1. Use npm to install your package. Ex: `npm install git+https://github.com/mbret/chewie-hook-thirdparty-auth-provider`.
+2. Now you need to tell chewie to use it. Locate your config file (by default settings.json) and add the config:
+```
+{
+    ...,
+    "hooks": {
+        "chewie-hook-thirdparty-auth-provider": true
+    },
+    ...
+}
+```
+
+### Install a plugin
 
 ## FAQ
 
