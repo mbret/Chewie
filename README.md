@@ -49,7 +49,7 @@ To start chewie move to the assistant folder. By default it's `chewie` and run:
 ```
 npm run start
 ```
-You should have access to [https://localhost:3000](https://localhost:3000) to get the web app.
+You should have access to [https://localhost:3000][host] to get the web app.
 
 If you may want to have more information and debug you can use:
 ```
@@ -76,6 +76,20 @@ You may want to check out these common and popular packages:
 ```
 
 ### Install a plugin
+#### Web interface
+Simply go to [https://localhost:3000/#!/dashboard/repository/list][host-repository].
+#### Manually
+You can set up a local repository (a folder) and place inside it the plugins you want to use. Chewie will browse the folder and let
+you manage it through web interface.
+- Add this config to specify a local repository
+```
+{
+    ...,
+    "pluginsLocalRepositoryDir": "/path/to/my/folder",
+    ...
+}
+```
+- Go to [https://localhost:3000/#!/dashboard/repository/list][host-repository].
 
 ## FAQ
 
@@ -87,7 +101,8 @@ the behavior of Chewie. The plugin is managed through the app and is "mounted" /
 Try to run `npm rebuild` to see if it helps.
 
 ## Troubleshootings
-- The startup crash and I get an error who looks like `No such driver found, please try to install it via npm install db-migrate-sqlite3...` This error appears sometimes on raspberry for example:
+
+##### The startup crash and I get an error who looks like `No such driver found, please try to install it via npm install db-migrate-sqlite3...` This error appears sometimes on raspberry for example:
 You probably have invalid or badly installed sqlite3 dependency. Try to do `npm install sqlite3 --build-from-source` again to see if it helps.
 
 ## I want to create a plugin
@@ -106,5 +121,7 @@ Read the contributing [guide](https://github.com/mbret/chewie/blob/master/CONTRI
 
 - complete cli to manage chewie
 
+[host]https://localhost:3000
+[host-repository]https://localhost:3000/#!/dashboard/repository/list
 [chewie]: https://github.com/mbret/chewie
 [chewie-system]: https://github.com/mbret/chewie-system
