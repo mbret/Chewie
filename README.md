@@ -58,11 +58,11 @@ npm run start:debug
 
 ## What next?
 You may want to check out these common and popular packages:
-- [https://github.com/mbret/chewie-hook-thirdparty-auth-provider][chewie-hook-thirdparty-auth-provider] Handle easily your social authentications.
-- [https://github.com/mbret/chewie-plugin-date-time][chewie-plugin-date-time] Execute task on certain time/date/interval/etc.
+- (hook) [https://github.com/mbret/chewie-hook-thirdparty-auth-provider](chewie-hook-thirdparty-auth-provider) Handle easily your social authentications.
+- (plugin) [https://github.com/mbret/chewie-plugin-date-time](chewie-plugin-date-time) Execute task on certain time/date/interval/etc.
 
 ## How to install hooks and plugins
-### Install an hook
+### Install a hook
 1. Use npm to install your package. Ex: `npm install git+https://github.com/mbret/chewie-hook-thirdparty-auth-provider`.
 2. Now you need to tell chewie to use it. Locate your config file (by default settings.json) and add the config:
 ```
@@ -79,9 +79,11 @@ You may want to check out these common and popular packages:
 
 ## FAQ
 
-Coming soon.
-- I have updated node.js and I get some errors when starting the app. (ex `Please install sqlite3 package manually`)
-
+##### What is the difference between hooks and plugins
+The purpose of a hook is to extend chewie in term of functionality while a plugin provide new actions for scenarios. A hook is a 
+node package that is installed locally as module and is loaded on system startup. It has access to the entire system and can add/remove/change
+the behavior of Chewie. The plugin is managed through the app and is "mounted" / "unmounted" during runtime when a scenario that use it need to start.
+##### I have updated node.js and I get some errors when starting the app. (ex `Please install sqlite3 package manually`)
 Try to run `npm rebuild` to see if it helps.
 
 ## Troubleshootings
