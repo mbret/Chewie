@@ -77,11 +77,11 @@ You may want to check out these common and popular packages:
 
 ### Install a plugin
 #### Web interface
-Simply go to [https://localhost:3000/#!/dashboard/repository/list][host-repository].
-#### Manually
+Simply go to [https://localhost:3000/#!/dashboard/repository/list][host-repository]. Take note that the remote repository is not available yet.
+
 You can set up a local repository (a folder) and place inside it the plugins you want to use. Chewie will browse the folder and let
 you manage it through web interface.
-- Add this config to specify a local repository
+- Add this config to specify a local repository:
 ```
 {
     ...,
@@ -89,7 +89,7 @@ you manage it through web interface.
     ...
 }
 ```
-- Go to [https://localhost:3000/#!/dashboard/repository/list][host-repository].
+- Use the web interface.
 
 ## FAQ
 
@@ -121,7 +121,7 @@ Read the contributing [guide](https://github.com/mbret/chewie/blob/master/CONTRI
 
 - complete cli to manage chewie
 
-[host]https://localhost:3000
-[host-repository]https://localhost:3000/#!/dashboard/repository/list
+[host]: https://localhost:3000
+[host-repository]: https://localhost:3000/#!/dashboard/repository/list
 [chewie]: https://github.com/mbret/chewie
 [chewie-system]: https://github.com/mbret/chewie-system
