@@ -10,6 +10,7 @@
     "cross-env": "^3.1.4"
   },
   "scripts": {
+    "postinstall": "node scripts/install.js",
     "start": "node index.js",
     "start:debug": "cross-env DEBUG=chewie* node index.js",
     "app-update": "git pull origin master"
