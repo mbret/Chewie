@@ -12,8 +12,8 @@
   },
   "scripts": {
     "postinstall": "node scripts/install.js",
-    "start": "node index.js",
-    "start:debug": "cross-env DEBUG=chewie* node index.js",
+    "start": "node scripts/install.js && node index.js",
+    "start:debug": "cross-env DEBUG=chewie* npm run start",
     "app-update": "git pull origin master"
   }
 }
