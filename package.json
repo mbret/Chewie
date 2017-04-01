@@ -6,7 +6,7 @@
   "author": "Maxime Bret",
   "license": "MIT",
   "dependencies": {
-    "chewie-system": "git+https://github.com/mbret/chewie-system",
+    "chewie-system": "git+https://github.com/mbret/chewie-system#0.1.1",
     "cross-env": "^3.1.4",
     "fs-extra": "^2.1.2"
   },
