@@ -1,6 +1,6 @@
 ![Image of Chewbacca](https://image.ibb.co/eKvgov/chewie.jpg)
 
-# Chewie application
+# Chewie
 [![version](https://img.shields.io/npm/v/chewie.svg)](https://www.npmjs.org/package/chewie)
 [![status](https://travis-ci.org/mbret/chewie.svg)](https://travis-ci.org/mbret/chewie)
 [![coverage](https://img.shields.io/coveralls/mbret/chewie.svg)](https://coveralls.io/github/mbret/chewie)
