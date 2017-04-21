@@ -1,10 +1,14 @@
 {
   "name": "chewie",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "author": "Maxime Bret",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mbret/Chewie.git"
+  }
   "dependencies": {
     "chewie-system": "git+https://github.com/mbret/chewie-system#0.1.1",
     "cross-env": "^3.1.4",
