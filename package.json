@@ -10,7 +10,7 @@
     "url": "git://github.com/mbret/Chewie.git"
   },
   "dependencies": {
-    "chewie-system": "git+https://github.com/mbret/chewie-system#0.1.1",
+    "chewie-system": "git+https://github.com/mbret/chewie-system#0.1.11",
     "cross-env": "^3.1.4",
     "fs-extra": "^2.1.2"
   },
