@@ -1,6 +1,6 @@
 {
   "name": "chewie",
-  "version": "0.1.11",
+  "version": "0.1.110",
   "description": "",
   "main": "index.js",
   "author": "Maxime Bret",
@@ -10,7 +10,7 @@
     "url": "git://github.com/mbret/Chewie.git"
   },
   "dependencies": {
-    "chewie-system": "git+https://github.com/mbret/chewie-system#0.1.11",
+    "chewie-system": "git+https://github.com/mbret/chewie-system#0.1.110",
     "cross-env": "^3.1.4",
     "fs-extra": "^2.1.2"
   },
