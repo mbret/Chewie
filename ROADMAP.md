@@ -11,6 +11,7 @@ Chewie. If you have an idea for a new feature, open an issue for discussion.
 | :ship: | Add plugin via local repository |
 | :ship: | Profile selection |
 | :construction: | JWT auth support |
+| :soon: | Add plugin via custom url |
 
 ## Possible Features
 
