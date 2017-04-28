@@ -7,10 +7,8 @@ Chewie. If you have an idea for a new feature, open an issue for discussion.
 
 | State | Name |
 | ------ | ---- |
-| :construction: | File locking |
-| :ship: | Resumable uploads and downloads |
-| :construction: | Wrapped versions of `git pull` & `git checkout` that optimize without filters like `git lfs clone` |
-| | Remove non-batch API route in client |
+| :construction: | Add plugin via github |
+| :ship: | Add plugin via local repository |
 
 ## Possible Features
 
