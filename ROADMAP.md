@@ -16,6 +16,7 @@ Chewie. If you have an idea for a new feature, open an issue for discussion.
 | :construction: | Soft system restart | Restart the system wia ui or api without having to kill process |
 | :construction: | Create new profile | |
 | :construction: | Edit (remove) profile | |
+| :construction: | Edit (profile image) profile | |
 
 ## Possible Features
 
