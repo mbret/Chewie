@@ -1,19 +1,24 @@
 {
   "name": "chewie",
-  "version": "0.1.0",
+  "version": "0.1.110",
   "description": "",
   "main": "index.js",
   "author": "Maxime Bret",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mbret/Chewie.git"
+  },
   "dependencies": {
+    "chewie-system": "git+https://github.com/mbret/chewie-system#0.1.110",
     "chewie-cli": "git+https://github.com/mbret/chewie-cli.git",
-    "chewie-system": "git+https://github.com/mbret/chewie-system#0.1.1",
     "cross-env": "^3.1.4",
     "fs-extra": "^2.1.2"
   },
   "scripts": {
     "postinstall": "chewie generate-app-id && node scripts/install.js",
     "start": "node index.js",
-    "start:debug": "cross-env DEBUG=chewie* npm run start"
+    "start:debug": "cross-env DEBUG=chewie* npm run start",
+    "app-update": "git pull origin master"
   }
 }
