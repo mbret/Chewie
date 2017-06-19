@@ -20,5 +20,6 @@
     "start": "node index.js",
     "start:debug": "cross-env DEBUG=chewie* npm run start",
     "app-update": "git pull origin master"
-  }
+  },
+  "false": {}
 }
